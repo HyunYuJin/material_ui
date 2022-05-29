@@ -11,7 +11,19 @@ class Button {
     this.config = config
   }
 
-  classList () {
+  init () {
+
+  }
+
+  initEvents () {
+
+  }
+
+  initDOM () {
+
+  }
+
+  initClassList () {
 
   }
 

@@ -1,0 +1,14 @@
+@mixin border-style ($style: 1) {
+  @if $style == 1 {
+    border-bottom-left-radius: 15px 255px;
+    border-bottom-right-radius: 225px 15px;
+    border-top-left-radius: 255px 15px;
+    border-top-right-radius: 15px 225px;
+  }
+  @if $style == 2 {
+    border-bottom-left-radius: 185px 25px;
+    border-bottom-right-radius: 20px 205px;
+    border-top-left-radius: 125px 25px;
+    border-top-right-radius: 10px 205px;
+  }
+}

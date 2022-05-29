@@ -1,3 +1,5 @@
+import './assets/styles/styles.scss'
+
 import Button from './components/button'
 
 function MUI (): void {
