@@ -1,0 +1,25 @@
+{
+  "name": "material_ui",
+  "version": "1.0.0",
+  "description": "Custom MUI",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HyunYuJin/material_ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HyunYuJin/material_ui/issues"
+  },
+  "homepage": "https://github.com/HyunYuJin/material_ui#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.7.2"
+  }
+}
