@@ -1,13 +1,22 @@
 import './assets/styles/styles.scss'
+import {
+  Button
+} from './components/index'
 
-import Button from './components/button'
+function init (): void {
+  button()
+}
 
-function MUI (): void {
+function button () {
   const button = new Button({
     type: 'primary'
   })
 
-  console.log(button)
+  return button
 }
 
-export default MUI
+function initEvents (): void {
+
+}
+
+init()
