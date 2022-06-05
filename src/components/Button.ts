@@ -1,22 +1,13 @@
-import type {
-  ButtonType
-} from './types'
-
 class Button {
-  public config: ButtonType
-  public nodes: NodeListOf<Element>
-
   constructor (
-    config: ButtonType
+    public selector: string
   ) {
-    this.config = config
-    this.nodes = document.querySelectorAll('mui-button')
 
     this.init()
   }
 
   init () {
-    console.log(this.nodes)
+    console.log(this.selector)
   }
 
   initEvents () {
