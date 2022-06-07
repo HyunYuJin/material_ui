@@ -1,9 +1,12 @@
+import './assets/styles/styles.scss'
 import Button from './components/Button'
 
 export default class Mui {
- constructor () {}
+ constructor (
+   public container: Element
+ ) {}
 
- button (selector: string) {
+ button (selector: HTMLElement) {
    return new Button(selector)
  }
 }

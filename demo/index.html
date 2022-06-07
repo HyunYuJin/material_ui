@@ -8,9 +8,8 @@
 <body>
   <div id="MUI">
     <h1>Material UI</h1>
-
     <div id="container" class="container">
-      <button class="mui-button">MUI Button</button>
+      <button class="mui-button" variant="text" type="secondary" size="small">MUI Button</button>
     </div>
   </div>
 
@@ -19,8 +18,16 @@
     
     'use strict'
 
-    const mui = new Mui()
-    mui.button('.mui-button')
+    const nodes = {
+      container: document.getElementById('container'),
+      buttons: document.querySelector('.mui-button')
+    }
+
+    setTimeout(() => {
+      const mui = new Mui(nodes.container)
+      mui.button(nodes.buttons)
+    }, 1000)
+
 
     window.mui = mui
   </script>
